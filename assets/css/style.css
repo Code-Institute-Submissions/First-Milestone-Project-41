@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Sen:100,200,300,400,500,600,700');
+
+header {
+    padding: 80px;
+    background-image: url("../images/beach2.jpg");
+    background-size: 100% 100%;
+    object-fit: cover;
+}
+
+body {
+
+}
+
+footer {
+    padding: 70px;
+    background-color: gray;
+    font-size: 100%;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #06330a;
+    letter-spacing: 5px;
+}
+
+h3 {
+
+}
+
+#hero {
+    height: 700px;
+    width: 100%;
+    background: url("../images/stretch2.jpg") no-repeat center center;
+    background-size: 100% 100%;       
+}
+
+.social {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: yellowgreen;
+}
+
+#address {
+}
+
+#phone {
+    text-align: center;
+}
+
+#email {
+    text-align: right;
+}
+
+.col-sm {
+
+}
+
+#contact {
+}
