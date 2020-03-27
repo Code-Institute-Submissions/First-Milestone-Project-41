@@ -37,19 +37,55 @@
     <section>
         <div id="hero">
             <div class="container-hero">
-                <h1 class="display-4">Join Us!</h1>
-                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            </div>
+            <!--Form by Bootstrap-->
+            <div class="form">
+                <form>
+                <h3 class="display">Sign Up Today!</h3>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                    <label for="inputEmail4">First Name</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="First Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                    <label for="inputPassword4">Last Name</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-4">
+                    <label for="inputState">State</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary" target="_blank">Sign up</button>
+                </form>
             </div>
         </div>
         <div class="container-member">
             <div class="row">
-                <div class="col-sm" id="basic">
-                    <h3>Basic Membership</h3>
-                    <p>With our basic membership you have access to all gym equipment as well as our lockeroom and shower facility, and classes and amenities may be used with fees.</p>
+                <div class="col-sm">
+                    <h3>Basic Membership - $12.99 per month</h3>
+                    <p>With our basic membership you have access to all gym equipment as well as our lockeroom and shower facilities.  Classes and amenities may be used with additional fees.</p>
                 </div>
-                <div class="col-sm" id="pro">
-                    <h3>Pro Membership</h3>
-                    <p>With our expert membership you will have the basic benefits as well as full access to our offered classes and amenities with no extra charge.</p>
+                <div class="col-sm">
+                    <h3>Pro Membership - $19.99 per month</h3>
+                    <p>With our expert membership you will have the basic benefits.</p>
                 </div>
             </div>
         </div>
@@ -74,6 +110,7 @@
                 Email: gulfcoastgym@gmail.com
             </div>
         </div>
+        <div align="center">Hours: 6:00-23:00</div>
     </footer>
 </body>
 </html>
