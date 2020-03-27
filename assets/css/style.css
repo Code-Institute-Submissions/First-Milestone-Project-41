@@ -7,25 +7,41 @@ header {
     object-fit: cover;
 }
 
-body {
-
+.nav-item{
+    background-color: orange;
 }
 
 footer {
     padding: 70px;
     background-color: gray;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     font-size: 100%;
+    color: orange;
+}
+
+h1 {
+    text-align: center;
+    height: 100px;
 }
 
 h2 {
     text-transform: uppercase;
-    color: #06330a;
+    color: #c57002;
     letter-spacing: 5px;
 }
 
 h3 {
-
+    color: black;
+    font-weight: 900;
 }
+
+.display {
+    font-weight: 900;
+    font-size: 50px;
+    color: black;
+    }
 
 #hero {
     height: 700px;
@@ -48,10 +64,7 @@ h3 {
     font-size: 200%;
     margin: 1%;
     padding: 5%;
-    color: yellowgreen;
-}
-
-#address {
+    color: orange;
 }
 
 #phone {
@@ -61,10 +74,21 @@ h3 {
 #email {
     text-align: right;
 }
-
-.col-sm {
-
+ 
+.container-amen {
+    height: 100px;
+    padding: 100px;
 }
 
-#contact {
+.col-sm {
+    text-align: center;
+}
+
+.form {
+    border-style: solid;
+    border-color: orangered;
+    background-color: rgb(215, 215, 219);
+    width: 700px;
+    height: 400px;
+    opacity: 0.8;
 }
