@@ -14,9 +14,6 @@ header {
 footer {
     padding: 70px;
     background-color: gray;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     font-size: 100%;
     color: orange;
 }
@@ -48,23 +45,6 @@ h3 {
     width: 100%;
     background: url("../images/stretch2.jpg") no-repeat center center;
     background-size: 100% 100%;       
-}
-
-.social {
-    text-align: center;
-    list-style: none;
-    padding: 0;
-}
-
-.social li {
-    display: inline-block;
-}
-
-.social i {
-    font-size: 200%;
-    margin: 1%;
-    padding: 5%;
-    color: orange;
 }
 
 #phone {
