@@ -98,6 +98,8 @@ h4 {
 }
 
 .form {
+    padding: 10px 10px 10px 10px;
+    margin-left: 100px;
     border-style: solid;
     border-color: orangered;
     background-color: rgb(215, 215, 219);
