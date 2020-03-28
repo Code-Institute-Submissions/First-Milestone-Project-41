@@ -7,6 +7,10 @@ header {
     object-fit: cover;
 }
 
+section {
+    background-color: rgb(245, 215, 176);
+}
+
 .nav-item{
     background-color: orange;
 }
@@ -14,6 +18,7 @@ header {
 footer {
     padding: 70px;
     background-color: gray;
+    width: 100%;
     font-size: 100%;
     color: orange;
 }
@@ -21,23 +26,37 @@ footer {
 h1 {
     text-align: center;
     height: 100px;
+    color: 
 }
 
 h2 {
     text-transform: uppercase;
     color: #c57002;
     letter-spacing: 5px;
+    text-shadow: white 0px 0px 10px;
+    text-decoration: none;
+}
+
+h2 a {
+    text-decoration: none;
 }
 
 h3 {
-    color: black;
+    color: orange;
     font-weight: 900;
+    text-shadow: black 0px 0px 10px;
+}
+
+h4 {
+    color: green;
+    padding-bottom: 0;
 }
 
 .display {
     font-weight: 900;
     font-size: 50px;
     color: black;
+    text-shadow: white 0px 0px 10px;
     }
 
 #hero {
@@ -45,6 +64,23 @@ h3 {
     width: 100%;
     background: url("../images/stretch2.jpg") no-repeat center center;
     background-size: 100% 100%;       
+}
+
+.social {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: orange;
 }
 
 #phone {
