@@ -8,7 +8,7 @@ header {
 }
 
 section {
-    background-color: rgb(245, 215, 176);
+    background-color: rgb(250, 234, 213);
 }
 
 .nav-item{
@@ -26,7 +26,7 @@ footer {
 h1 {
     text-align: center;
     height: 100px;
-    color: 
+    color: rgb(10, 10, 172)
 }
 
 h2 {
@@ -42,14 +42,13 @@ h2 a {
 }
 
 h3 {
-    color: orange;
+    color: rgb(10, 10, 172);
     font-weight: 900;
-    text-shadow: black 0px 0px 10px;
 }
 
 h4 {
-    color: green;
     padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .display {
@@ -90,14 +89,12 @@ h4 {
 #email {
     text-align: right;
 }
- 
-.container-amen {
-    height: 100px;
-    padding: 100px;
-}
 
 .col-sm {
     text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 100px 0 100px;
 }
 
 .form {
@@ -107,4 +104,15 @@ h4 {
     width: 700px;
     height: 400px;
     opacity: 0.8;
+}
+
+.col-amenities {
+    height: 200px;
+}
+
+.col-classes{
+    height: 200px;
+}
+p {
+    margin-bottom: 0;
 }
