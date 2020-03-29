@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Sen:100,200,300,400,500,600,700');
 
+/*header content, section background and footer content styling*/
+
+.nav-item{
+    background-color: orange;
+}
+
 header {
     padding: 80px;
     background-image: url("../images/beach2.jpg");
@@ -11,10 +17,6 @@ section {
     background-color: rgb(250, 234, 213);
 }
 
-.nav-item{
-    background-color: orange;
-}
-
 footer {
     padding: 70px;
     background-color: gray;
@@ -22,6 +24,33 @@ footer {
     font-size: 100%;
     color: orange;
 }
+
+.social {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: orange;
+}
+
+#phone {
+    text-align: center;
+}
+
+#email {
+    text-align: right;
+}
+
+/*Typography*/
 
 h1 {
     text-align: center;
@@ -52,12 +81,11 @@ h4 {
     margin-bottom: 0;
 }
 
-.display {
-    font-weight: 900;
-    font-size: 50px;
-    color: black;
-    text-shadow: white 0px 0px 10px;
-    }
+p {
+    margin-bottom: 0;
+}
+
+/*index.html hero image, form and section grid styling*/
 
 #hero {
     height: 700px;
@@ -66,37 +94,12 @@ h4 {
     background-size: 100% 100%;       
 }
 
-.social {
-    text-align: center;
-    list-style: none;
-    padding: 0;
-}
-
-.social li {
-    display: inline-block;
-}
-
-.social i {
-    font-size: 200%;
-    margin: 1%;
-    padding: 5%;
-    color: orange;
-}
-
-#phone {
-    text-align: center;
-}
-
-#email {
-    text-align: right;
-}
-
-.col-sm {
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    margin: 0 100px 0 100px;
-}
+.display {
+    font-weight: 900;
+    font-size: 50px;
+    color: black;
+    text-shadow: white 0px 0px 10px;
+    }
 
 .form {
     padding: 10px 10px 10px 10px;
@@ -109,23 +112,33 @@ h4 {
     opacity: 0.8;
 }
 
-.col-amenities {
-    height: 200px;
+.col-sm {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 100px 0 100px;
 }
+
+/*classes.html section grid styling*/
 
 .col-classes{
     height: 200px;
 }
-p {
-    margin-bottom: 0;
+
+/*amenities.html section grid styling*/
+
+.col-amenities {
+    height: 200px;
 }
 
+/*gallery.html section and image styling*/
+
 #gallery {
-    clear: both;
-    line-height: 0;
-    column-count: 2;
-    column-gap: 0px;
     padding: 0 100px 0 100px;
+    clear: both;
+    column-count: 2;
+    column-gap: 0px;    
+    line-height: 0;
 }
 
 #gallery img {
