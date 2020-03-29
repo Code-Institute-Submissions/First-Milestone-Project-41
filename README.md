@@ -28,6 +28,7 @@
 #### * The user looking for a new gym with added benefits was able to find exactly what the gym offered by visiting the amenities page via the navigation bar from the home page.
 #### * The senior looking for a senoir gym class was able to find this gym's class on the classes page, and had an easy time signing up back on the home page.
 #### * The basic member look to upgrade was able to find relevant information on the benefits of being a Pro Member.
+#### The navbar and form do not play nice with the mobile sizes.  The navbar wraps at smaller sizes and the form spills out.  I was unable to decipher a way to make these two elements play nice on the mobile levels. 
 ## Deployment
 #### The project was deployed on GitHub Pages.  Once the code was pushed into the repository, the project was deployed by visiting GitHub and going to settings tab.  The master branch was selected as the source, and a link to the deployed project was provided..
 ## Credits
