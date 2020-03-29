@@ -14,17 +14,22 @@
 #### * Footer - Provides the user with contact information and links to the gym's social media accounts.
 ## Technologies Used
 #### * HTML5 - HTML5 was used to create the content on the pages.
-#### * CSS - CSS was used to style grids, images and typography.
+#### * CSS3 - CSS3 was used to style grids, images and typography.
 #### * Bootstrap 4 - Bootstrap 4 grids were used for the navigation, sections and footer. 
 #### * Font Awesome - Font Awesome was used to create social media icons.
 ## Testing
 ####
 ## Deployment
-####
+#### The project was deployed on GitHub Pages.  Once the code was pushed into the repository, the project was deployed by visiting GitHub and going to settings tab.  The master branch was selected as the source, and a link to the deployed project was provided..
 ## Credits
-### Content
-####
 ### Media
-####
+#### * Header image was taken from https://longwallpapers.com/tropical-beach-wallpapers-background/tropical-beach-wallpapers-background-for-desktop-wallpaper/
+#### * Hero image was taken from https://www.therapeuticassociates.com/wp-content/uploads/2016/02/shutterstock_164474051.jpg
+#### * Dancing image was taken from https://hips.hearstapps.com/ghk.h-cdn.co/assets/cm/15/11/768x516/54ff15b5d92ac-ghk-fitness-classes-zumba-xln.jpg?resize=480:*
+#### * Treadmill image was taken from https://cnet4.cbsistatic.com/img/jDWybk6jLt4XOf6kdf-ALxy4E2A=/940x0/2019/08/07/7ea3dc9f-ecee-43a9-a858-cf48c95a2678/gettyimages-735893547.jpg
+#### * Push up image was taken from https://www.thehealthy.com/wp-content/uploads/2017/10/This-Tiny-Change-Can-Make-Workouts-Way-More-Enjoyable_609102833-VGstockstudio-760x506.jpg
+#### * Weight lifting image was taken from https://drexel.edu/~/media/Images/recathletics/group-exercise.ashx?la=en
+#### * Cyling image was taken from https://www.chicagotribune.com/resizer/HMXJXcwJsXbAR_fEdTIjIP5ewdo=/800x533/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/PK6N5ACHP5CMDK5TSY6HP6NJZI.jpg
+#### * Seniors image was taken from https://images.assetsdelivery.com/compings_v2/lightfieldstudios/lightfieldstudios1902/lightfieldstudios190222424.jpg
 ### Acknowledgements
-####
+#### I received inspiration for this project from Code Institute, and the name from my father's business.
