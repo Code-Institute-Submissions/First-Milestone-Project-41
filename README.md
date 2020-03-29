@@ -1,6 +1,7 @@
 # Gulf Coast Gym
 #### This project is designed to attract new members, encourage existing members to upgrade their membership.  The Home page grabs the user's attention with the welcoming hero image, and draws them to the form where they may sign up for a membership.  The Classes page gives the user an overview of the range of classes offered and their schedules.  The Amenities page provides the user with a list of the attractive services that are offered by the gym.  The Gallery page depicts photographs of members taking part in the differnt classes offered, amd showing users that members enjoy their time at the gym.
 ## UX
+#### My design process for this project was to create a simple layout that contain all the important information needed for users whom may wish to join the gym.  The hero image draws the user towards the sign up form, saving them time looking through pages trying to join.  The membership options are directly below, giving the user a brief comparison for the memberships.  The classes section provides the user information on classes offered and their schedules, and the amenities page provides users information on services offered by the gym.  The gallery page shows the user current members enjoying their time at the gym. 
 #### * As a gym owner, I would want a website that invites customers in, with an easy to navigate site for all users.  A sign up form on the front page can be the differnce between new member or a bored online website surfer.
 #### * As a developer, I want to create a simple yet aesthetically pleasing website that will drawn user in and give them an easy opportunity to sign up without having to visit other pages.
 #### * As a user looking for a new gym, I want a gym that offers more than just that same old equipment, so I need to see what amenities this gym has.
@@ -22,7 +23,11 @@
 #### * Bootstrap 4 - Bootstrap 4 grids were used for the navigation, sections and footer. https://getbootstrap.com/
 #### * Font Awesome - Font Awesome was used to create social media icons. https://fontawesome.com/
 ## Testing
-####
+#### The project was tested rigorously throughout the development process, mainly by opening a port via Gitpod, allowing me to have running version of my project.  This was critical to the project as it allowed me to quickly see how my CSS changes were affecting the project, avoiding the dreaded debug nightmare.  Validators were employed to test HTML and CSS code. Family members were kindly asked to test the project in the final stages; all users could fill out the form, navigate the site, find all information that was asked, and find social media links.
+### User Stories
+#### * The user looking for a new gym with added benefits was able to find exactly what the gym offered by visiting the amenities page via the navigation bar from the home page.
+#### * The senior looking for a senoir gym class was able to find this gym's class on the classes page, and had an easy time signing up back on the home page.
+#### * The basic member look to upgrade was able to find relevant information on the benefits of being a Pro Member.
 ## Deployment
 #### The project was deployed on GitHub Pages.  Once the code was pushed into the repository, the project was deployed by visiting GitHub and going to settings tab.  The master branch was selected as the source, and a link to the deployed project was provided..
 ## Credits
